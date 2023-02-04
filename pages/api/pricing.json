@@ -1,0 +1,52 @@
+{
+  "pricing": [
+    {
+      "Id": 1,
+      "Title": "Classic",
+      "Images": "./images/pricingImg/pricingimg.png",
+      "Text": "Lorem ipsum dolorjhhf sit est.",
+      "Price": 200,
+      "list1": "Risk Managenment",
+      "list2": "Risk Managenment",
+      "list3": "Risk Managenment",
+      "list4": "Risk Managenment",
+      "list5": "Risk Managenment",
+      "list6": "Risk Managenment",
+      "list7": "Risk Managenment",
+      "list8": "Risk Managenment",
+      "list9": "Risk Managenment"
+    },
+    {
+      "Id": 2,
+      "Title": "Advanced",
+      "Images": "./images/pricingImg/pricingimg.png",
+      "Text": " Lorem ipsum dolorjhhf  sit est.",
+      "Price": 500,
+      "list1": "Risk Managenment",
+      "list2": "Risk Managenment",
+      "list3": "Risk Managenment",
+      "list4": "Risk Managenment",
+      "list5": "Risk Managenment",
+      "list6": "Risk Managenment",
+      "list7": "Risk Managenment",
+      "list8": "Risk Managenment",
+      "list9": "Risk Managenment"
+    },
+    {
+      "Id": 3,
+      "Title": "Premium",
+      "Images": "./images/pricingImg/pricingimg.png",
+      "Text": " Lorem ipsum dolorjhhf  sit est.",
+      "Price": 1500,
+      "list1": "Risk Managenment",
+      "list2": "Risk Managenment",
+      "list3": "Risk Managenment",
+      "list4": "Risk Managenment",
+      "list5": "Risk Managenment",
+      "list6": "Risk Managenment",
+      "list7": "Risk Managenment",
+      "list8": "Risk Managenment",
+      "list9": "Risk Managenment"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "ourServiceCards": [
+    {
+      "Id": 1,
+      "Images": "./images/serviceCard/Numbering1.png",
+      "Title": "Select a plan",
+      "Text": "Lorem ipsum dolor sit amet consectetur. Commodo ut nec elit cum massa purus aenean."
+    },
+    {
+      "Id": 2,
+      "Images": "./images/serviceCard/Numbering2.png",
+      "Title": "Select a plan",
+      "Text": "Lorem ipsum dolor sit amet consectetur. Commodo ut nec elit cum massa purus aenean."
+    },
+    {
+      "Id": 3,
+      "Images": "./images/serviceCard/Numbering3.png",
+      "Title": "Select a plan",
+      "Text": "Lorem ipsum dolor sit amet consectetur. Commodo ut nec elit cum massa purus aenean."
+    }
+  ]
+}

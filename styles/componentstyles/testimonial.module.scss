@@ -1,0 +1,15 @@
+@use "../generalstyles/colors.module.scss" as *;
+
+.testimonialName {
+  font-size: 0.95rem;
+  font-weight: 480;
+}
+
+.testimonialPosition {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.TcardImage {
+  min-width: 1.6rem;
+}
