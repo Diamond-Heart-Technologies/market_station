@@ -1,0 +1,25 @@
+.heroImage {
+  width: 100%;
+  height: 500px;
+  background-image: url(../../public/marketStationhero/marketstarionhero.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.marketStationText {
+  position: relative;
+  font-size: 1rem;
+}
+
+.marketStationText a {
+  color: white !important;
+}
+
+.marketStationText h1 {
+  color: white;
+  position: relative;
+  font-size: 3rem;
+  font-weight: 1000;
+}
+/*# sourceMappingURL=marketHero.module.css.map */
