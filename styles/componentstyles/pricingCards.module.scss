@@ -8,3 +8,9 @@
   font-size: 1.75rem !important;
   font-weight: 700;
 }
+
+@media screen and (max-width: 766px) {
+  .pricingCardSM {
+    width: 80%;
+  }
+}

@@ -13,3 +13,9 @@
 .TcardImage {
   min-width: 1.6rem;
 }
+
+@media screen and (max-width: 766px) {
+  .TestimonialCardSM {
+    width: 80%;
+  }
+}

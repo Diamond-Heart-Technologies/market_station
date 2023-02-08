@@ -38,9 +38,9 @@ export const PricingCard = (props: Ipricing) => {
     list9,
   } = props;
   return (
-    <Card>
+    <Card className={` mx-auto ${pricingstyles.pricingCardSM}`}>
       <Card.Body>
-        <Card.Title className={`text-center fw-bold  ${styles.textColorWB}`}>
+        <Card.Title className={`text-center fw-bold   ${styles.textColorWB}`}>
           {Title}
         </Card.Title>
         <Card.Text className={`text-center   ${styles.textColorWB}`}>
@@ -60,8 +60,8 @@ export const PricingCard = (props: Ipricing) => {
             </div>
           </div>
         </div>
-        <div className="">
-          <ul className="mt-2 ">
+        <div className="mt-2 d-flex justify-content-center">
+          <ul className="">
             <li className="d-flex">
               <Card.Img
                 style={{ width: "1rem", height: "1.2rem" }}

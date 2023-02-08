@@ -2,6 +2,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import CardInfo from "../../pages/api/serviceCard.json";
 import styles from "@/styles/generalstyles//colors.module.scss";
+import Servicestyles from "@/styles/componentstyles/ourServiceCards.module.scss";
 
 interface IProduct {
   Images: string;
@@ -14,7 +15,10 @@ export const ServiceCard = (props: IProduct) => {
   const { Images, Title, Text } = props;
   return (
     <>
-      <Card style={{ width: "auto" }} className={`${styles.ServiceCardBG}`}>
+      <Card
+        // style={{ width: "auto" }}
+        className={` mx-auto ${styles.ServiceCardBG}   ${Servicestyles.ServiceCardSM}`}
+      >
         <Card.Img
           className="ms-2 mt-3"
           src={Images}

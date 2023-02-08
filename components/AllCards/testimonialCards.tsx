@@ -16,7 +16,9 @@ export const TestimonialCard = (props: ITestimonial) => {
   const { Images, Name, Position, text } = props;
   return (
     <main className="">
-      <Card className={`px-4 py-4  ${styles.ServiceCardBG}`}>
+      <Card
+        className={`px-4 py-4 mx-auto  ${styles.ServiceCardBG}   ${Tstyles.TestimonialCardSM}`}
+      >
         <div className="row">
           <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12">
             <Card.Img
