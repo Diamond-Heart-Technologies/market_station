@@ -26,11 +26,11 @@ const ContactForm = () => {
     <>
       <div className="col-lg-7 col-md-7 col-sm-12">
         <form className={`bg-white p-3 ${contactStyle.formstyle}`}>
-          <div className="mb-3">
+          <div className={`mb-3 $ ${contactStyle.inputstyle}`}>
             <p>Name:</p>
             <input
               type="email"
-              className="form-control "
+              className={`form-control  ${contactStyle.inputstyle}`}
               id="exampleInputEmail1"
             />
           </div>

@@ -3,4 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
+
+// {
+//   "presets"; ["next/babel"]
+// }
 module.exports = nextConfig

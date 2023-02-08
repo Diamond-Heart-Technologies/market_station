@@ -10,8 +10,6 @@ import { SingleTestimonialCard } from "../components/AllCards/testimonialCards";
 import { ContactUs } from "../components/contactUs";
 import Footer from "@/components/footer";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
   return (
     <>
