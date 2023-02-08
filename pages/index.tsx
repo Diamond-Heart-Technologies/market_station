@@ -8,6 +8,7 @@ import { SingleServiceCards } from "../components/AllCards/ourServiceCards";
 import { SinglePricingCard } from "../components/AllCards/pricingCards";
 import { SingleTestimonialCard } from "../components/AllCards/testimonialCards";
 import { ContactUs } from "../components/contactUs";
+import Navbar from "../components/navbar";
 import Footer from "@/components/footer";
 
 export default function Home() {
@@ -19,9 +20,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="container-fluid">
-        <h1 className="text-center fw-bold textColorWB">Our Services</h1>
-        <SingleServiceCards />
+      <main className={`container-fluid ${homestyles.allpagesection}`}>
+        <Navbar />
+        <section className={` ${homestyles.serviceSection}`} id="OurServices">
+          <h1 className="text-center fw-bold textColorWB">Our Services</h1>
+          <SingleServiceCards />
+        </section>
+
         <section className="" id="Pricing">
           <h1 className={`text-center fw-bold ${homestyles.pricingSection}`}>
             Pricing
@@ -37,7 +42,10 @@ export default function Home() {
           <SinglePricingCard />
         </section>
 
-        <section className={` ${homestyles.testimonialSection}`} id="AboutUs">
+        <section
+          className={` px-4 ${homestyles.testimonialSection}`}
+          id="AboutUs"
+        >
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-center ">
               <h1
@@ -52,7 +60,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className={` ${homestyles.contactUsSection}`} id="contactUs">
+        <section className={`  ${homestyles.contactUsSection}`} id="ContactUs">
           <ContactUs />
         </section>
         <div className={`  ${styles.pryColor}`}>
