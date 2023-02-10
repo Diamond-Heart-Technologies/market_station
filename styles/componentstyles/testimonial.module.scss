@@ -10,12 +10,18 @@
   font-style: italic;
 }
 
-.TcardImage {
-  min-width: 1.6rem;
-}
-
 @media screen and (max-width: 766px) {
   .TestimonialCardSM {
     width: 80%;
+  }
+}
+@media screen and (min-width: 766px) {
+  .TcardImage {
+    min-width: 2.4rem !important;
+    height: 2.5rem !important;
+    margin: -10px;
+  }
+  .imgspacing {
+    margin-top: 15px;
   }
 }

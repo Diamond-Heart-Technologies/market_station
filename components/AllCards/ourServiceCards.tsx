@@ -15,9 +15,13 @@ export const ServiceCard = (props: IProduct) => {
   const { Images, Title, Text } = props;
   return (
     <>
-      <Card
+      {/* <Card
         // style={{ width: "auto" }}
         className={` mx-auto ${styles.ServiceCardBG}   ${Servicestyles.ServiceCardSM}`}
+      > */}
+      <Card
+        // style={{ width: "auto" }}
+        className={`mx-auto ${styles.ServiceCardBG}`}
       >
         <Card.Img
           className="ms-2 mt-3"
@@ -35,7 +39,7 @@ export const ServiceCard = (props: IProduct) => {
 
 export const SingleServiceCards = () => {
   return (
-    <div className="container-fluid  ">
+    <div className="container">
       <div className="row d-flex justify-content-center">
         {CardInfo.ourServiceCards.map((items) => {
           return (

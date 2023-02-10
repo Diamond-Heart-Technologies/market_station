@@ -9,7 +9,7 @@ export const ContactUs = () => {
   return (
     <>
       <div
-        className={`container-fluid  mx-auto ${styles.pryColor}  ${contactStyle.contactSection}`}
+        className={`container mx-auto ${styles.pryColor}  ${contactStyle.contactSection}`}
       >
         <div className="row">
           <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center align-self-center">
@@ -33,7 +33,7 @@ const ContactForm = () => {
             <p className={``}>Name:</p>
             <input
               type="email"
-              className={`form-control  ${contactStyle.inputstyle}`}
+              className={`form-control ${contactStyle.inputstyle}`}
               id="exampleInputEmail1"
             />
           </div>
@@ -41,7 +41,7 @@ const ContactForm = () => {
             <p>Email:</p>
             <input
               type="email"
-              className={`form-control  ${contactStyle.inputstyle}`}
+              className={`form-control ${contactStyle.inputstyle}`}
               id="exampleInputEmail1"
             />
           </Form.Group>
@@ -50,7 +50,7 @@ const ContactForm = () => {
             <Form.Label htmlFor="disabledSelect">Pricing Option</Form.Label>
             <Form.Select
               id="disabledSelect"
-              className={`form-control  ${contactStyle.inputstyle}`}
+              className={`form-control ${contactStyle.inputstyle}`}
             >
               <option value="1">Classic</option>
               <option value="2">Advanced</option>
