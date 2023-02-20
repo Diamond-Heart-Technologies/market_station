@@ -1,0 +1,26 @@
+@use "../generalstyles/colors.module.scss" as *;
+.contactSection {
+  max-width: 80%;
+}
+.formstyle {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.inputstyle {
+  border: none;
+  border-bottom: 0.5px solid $textColorWB;
+  border-radius: 0;
+}
+.inputstyle:focus {
+  box-shadow: none;
+}
+
+@media screen and (max-width: 766px) {
+  .formstyle {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+}
