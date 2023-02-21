@@ -9,8 +9,7 @@ export const ContactUs = () => {
   return (
     <>
       <div
-        className={`container mx-auto ${styles.pryColor}  ${contactStyle.contactSection}`}
-      >
+        className={`container mx-auto ${styles.pryColor}  ${contactStyle.contactSection}`}>
         <div className="row">
           <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center align-self-center">
             <h3 className={` ${styles.secColor}`}>Get in touch</h3>
@@ -50,8 +49,7 @@ const ContactForm = () => {
             <Form.Label htmlFor="disabledSelect">Pricing Option</Form.Label>
             <Form.Select
               id="disabledSelect"
-              className={`form-control ${contactStyle.inputstyle}`}
-            >
+              className={`form-control ${contactStyle.inputstyle}`}>
               <option value="1">Classic</option>
               <option value="2">Advanced</option>
               <option value="3">Premium</option>
@@ -64,8 +62,7 @@ const ContactForm = () => {
               className="form-control"
               id="exampleFormControlTextarea1"
               placeholder="Message"
-              rows={3}
-            ></textarea>
+              rows={3}></textarea>
           </Form.Group>
           <div className="d-flex justify-content-center">
             {/* <Button type="submit">submit</Button> */}

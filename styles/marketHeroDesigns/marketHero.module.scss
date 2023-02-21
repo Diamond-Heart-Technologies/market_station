@@ -1,0 +1,30 @@
+.heroimageMobile {
+  width: 100%;
+  height: 600px;
+  background-image: url(../../public/images/marketStationhero/heroRectangle.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.marketStationText {
+  position: relative;
+  font-size: 1rem;
+}
+
+.marketStationText a {
+  color: white !important;
+}
+
+.marketStationText h1 {
+  color: white;
+  position: relative;
+  font-size: 3rem;
+  font-weight: 1000;
+}
+.marketStationText h4 {
+  color: white !important;
+  position: relative;
+  font-size: 2rem;
+  font-weight: 1000;
+}
