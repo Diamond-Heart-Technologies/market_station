@@ -68,8 +68,8 @@ const ContactForm = () => {
             ></textarea>
           </Form.Group>
           <div className="d-flex justify-content-center">
-            <Button type="submit">submit</Button>
-            {/* <SubmitButton /> */}
+            {/* <Button type="submit">submit</Button> */}
+            <SubmitButton />
           </div>
         </Form>
       </div>

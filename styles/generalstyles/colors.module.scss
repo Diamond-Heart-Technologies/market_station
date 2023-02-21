@@ -1,10 +1,11 @@
-$pryColor: rgba(0, 0, 205, 1);
+$pryColor: rgba(25, 40, 125, 1);
 $secColor: rgba(255, 255, 255, 1);
 $textColorWB: rgba(77, 77, 77, 1);
 $buttonAndothers: rgba(173, 0, 0, 1);
 $subtittleText: rgba(175, 172, 172, 1);
 $ServiceCardBG: rgba(0, 0, 205, 0.2);
 $ServiceCardBG2: rgba(173, 0, 0, 0.1);
+$pricingSectionBG: rgba(0, 0, 205, 0.01);
 
 .pryColor {
   background-color: $pryColor;
@@ -31,4 +32,7 @@ $ServiceCardBG2: rgba(173, 0, 0, 0.1);
 }
 .ServiceCardBG2 {
   background-color: $ServiceCardBG2;
+}
+.pricingSectionBG {
+  background-color: $pricingSectionBG;
 }

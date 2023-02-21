@@ -20,16 +20,18 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <main className={`container-fluid ${homestyles.allpagesection}`}> */}
       <main className={`container-fluid`}>
         <Navbar />
-        <section className={` ${homestyles.serviceSection}`} id="OurServices">
+        <section
+          className={` mx-auto ${homestyles.serviceSection}  ${homestyles.ServiceCardSM}`}
+          id="OurServices"
+        >
           <h1 className="text-center fw-bold textColorWB">Our Services</h1>
           <SingleServiceCards />
         </section>
 
-        <section className="" id="Pricing">
-          <h1 className={`text-center fw-bold ${homestyles.pricingSection}`}>
+        <section className={`id="Pricing   ${styles.pricingSectionBG}`}>
+          <h1 className={`text-center fw-bold ${homestyles.pricingSection} `}>
             Pricing
           </h1>
 
@@ -42,7 +44,6 @@ export default function Home() {
 
           <SinglePricingCard />
         </section>
-
         <section
           className={`px-4 container ${homestyles.testimonialSection}`}
           id="AboutUs"
@@ -50,7 +51,7 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-center">
               <h1
-                className="fw-bold text-center w-100
+                className="fw-bold  text-center 
               "
               >
                 What our Customers are Saying
@@ -64,10 +65,11 @@ export default function Home() {
         <section className={`${homestyles.contactUsSection}`} id="ContactUs">
           <ContactUs />
         </section>
-        <div className={`${styles.pryColor}`}>
-          <Footer />
-        </div>
       </main>
+
+      <div className={`${styles.pryColor}`}>
+        <Footer />
+      </div>
     </>
   );
 }
