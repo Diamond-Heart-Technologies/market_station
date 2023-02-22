@@ -46,14 +46,18 @@ export default function Home() {
         </section>
         <section
           className={`px-4 container ${homestyles.testimonialSection}`}
-          id="AboutUs"
-        >
+          id="AboutUs">
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-center">
               <h1
+<<<<<<< HEAD
                 className="fw-bold  text-center 
               "
               >
+=======
+                className="fw-bold text-center w-100
+              ">
+>>>>>>> af8a90c4f9fe2d56e92d38023daf9d322d513d58
                 What our Customers are Saying
               </h1>
             </div>

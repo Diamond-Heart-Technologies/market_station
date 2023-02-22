@@ -17,7 +17,7 @@ export const ContactUs = () => {
             <h3 className={` ${styles.secColor}`}>Get in touch</h3>
           </div>
           <div className="col-lg-7 col-md-7 col-sm-12">
-            <ContactForm />
+            {/* <ContactForm /> */}
           </div>
         </div>
       </div>
@@ -76,88 +76,88 @@ export const ContactUs = () => {
 //   );
 // };
 
-interface Product {
-  Name: string;
-  Email: string;
-  PricingOption: string;
-  Message: string;
-}
+// interface Product {
+//   Name: string;
+//   Email: string;
+//   PricingOption: string;
+//   Message: string;
+// }
 
-const ContactForm = () => {
-  const [person, setPerson] = useState({
-    Name: "",
-    Email: "",
-    PricingOption: "",
-    Message: "",
-  });
-  const [people, setPeople] = useState([]);
-  const handleChange = (e) => {
-    const name = e.target.name;
-    const value = e.target.value;
-    setPerson({ ...person, [name]: value });
-  };
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (person.Name && person.Email && person.PricingOption && person.Message) {
-      const newPerson = { ...person };
-      setPeople([...people, newPerson]);
-      setPerson({ Name: "", Email: "", PricingOption: "", Message: "" });
-    }
-  };
-  return (
-    <>
-      <article className="form">
-        <form>
-          <div className="form-control">
-            <label htmlFor="firstName">Name : </label>
-            <input
-              type="text"
-              id="firstName"
-              name="firstName"
-              value={person.Name}
-              onChange={handleChange}
-            />
-          </div>
-          <div className="form-control">
-            <label htmlFor="email">Email : </label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              value={person.Email}
-              onChange={handleChange}
-            />
-          </div>
-          <div className="form-control">
-            <label htmlFor="age">Age : </label>
-            <input
-              type="number"
-              id="age"
-              name="age"
-              value={person.PricingOption}
-              onChange={handleChange}
-            />
-          </div>
-          <button type="submit" className="btn" onClick={handleSubmit}>
-            add person
-          </button>
-        </form>
-      </article>
-      <article>
-        {people.map((person) => {
-          const { id, firstName, email, age } = person;
-          return (
-            <div key={id} className="item">
-              <h4>{firstName}</h4>
-              <p>{email}</p>
-              <p>{age}</p>
-            </div>
-          );
-        })}
-      </article>
-    </>
-  );
-};
+// const ContactForm = () => {
+//   const [person, setPerson] = useState({
+//     Name: "",
+//     Email: "",
+//     PricingOption: "",
+//     Message: "",
+//   });
+//   const [people, setPeople] = useState([]);
+//   const handleChange = (e) => {
+//     const name = e.target.name;
+//     const value = e.target.value;
+//     setPerson({ ...person, [name]: value });
+//   };
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     if (person.Name && person.Email && person.PricingOption && person.Message) {
+//       const newPerson = { ...person };
+//       setPeople([...people, newPerson]);
+//       setPerson({ Name: "", Email: "", PricingOption: "", Message: "" });
+//     }
+//   };
+//   return (
+//     <>
+//       <article className="form">
+//         <form>
+//           <div className="form-control">
+//             <label htmlFor="firstName">Name : </label>
+//             <input
+//               type="text"
+//               id="firstName"
+//               name="firstName"
+//               value={person.Name}
+//               onChange={handleChange}
+//             />
+//           </div>
+//           <div className="form-control">
+//             <label htmlFor="email">Email : </label>
+//             <input
+//               type="email"
+//               id="email"
+//               name="email"
+//               value={person.Email}
+//               onChange={handleChange}
+//             />
+//           </div>
+//           <div className="form-control">
+//             <label htmlFor="age">Age : </label>
+//             <input
+//               type="number"
+//               id="age"
+//               name="age"
+//               value={person.PricingOption}
+//               onChange={handleChange}
+//             />
+//           </div>
+//           <button type="submit" className="btn" onClick={handleSubmit}>
+//             add person
+//           </button>
+//         </form>
+//       </article>
+//       <article>
+//         {people.map((person) => {
+//           const { id, firstName, email, age } = person;
+//           return (
+//             <div key={id} className="item">
+//               <h4>{firstName}</h4>
+//               <p>{email}</p>
+//               <p>{age}</p>
+//             </div>
+//           );
+//         })}
+//       </article>
+//     </>
+//   );
+// };
 
 // interface Product {
 //   Name: string;
