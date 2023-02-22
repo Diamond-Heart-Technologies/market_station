@@ -29,28 +29,28 @@ const Navbar = () => {
                       <a
                         className="nav-link active"
                         aria-current="page"
-                        href="#">
+                        href="#AboutUs">
                         ABOUT US
                       </a>
                     </li>
                   </div>
                   <div className={styles.marketStationText}>
                     <li className="nav-item ">
-                      <a className="nav-link" href="#">
+                      <a className="nav-link" href="#OurServices">
                         SERVICES
                       </a>
                     </li>
                   </div>
                   <div className={styles.marketStationText}>
                     <li className="nav-item">
-                      <a className="nav-link" href="#">
+                      <a className="nav-link" href="#Pricing">
                         PRICING
                       </a>
                     </li>
                   </div>
                   <div className={styles.marketStationText}>
                     <li className="nav-item">
-                      <a className="nav-link" href="#">
+                      <a className="nav-link" href="#ContactUs">
                         CONTACT US
                       </a>
                     </li>
