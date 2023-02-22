@@ -5,7 +5,7 @@ import mobilephones from "../public/images/marketStationhero/mobilephones.png";
 const Navbar = () => {
   return (
     <>
-      <main className="d-md-block d-sm-none ">
+      <main>
         <div className={styles.heroimageMobile}>
           <nav className="navbar navbar-expand-lg ">
             <div className="container-fluid">
@@ -61,32 +61,28 @@ const Navbar = () => {
           </nav>
 
           <div className="container">
-            <div className="row ">
-              <div className="col-lg-6 mt-5 pt-5">
+            <div className="row mt-4">
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5 pt-5">
                 <div>
-                  <h4
-                    className="d-sm-block d-lg-none"
+                  <h2
+                    className="fw-bold"
                     style={{ color: "white", textAlign: "center" }}>
-                    Lorem ipsum, dolor sit.
-                  </h4>
-                  <div className={styles.marketStationText}>
-                    <h1
-                      className="mt-5 d-lg-block d-none d-sm-none"
-                      style={{ color: "white", textAlign: "center" }}>
-                      Lorem ipsum, dolor sit amet consectetur.
-                    </h1>
-                  </div>
-                  <div className="d-sm-none d-lg-block">
-                    <p style={{ color: "white", textAlign: "center" }}>
-                      We make your trading dreams come true.
-                    </p>
-                  </div>
-                  <div style={{ textAlign: "center" }}>
+                    Lorem ipsum, dolor sit amet consectetur.
+                  </h2>
+                </div>
+                <div>
+                  <p style={{ color: "white", textAlign: "center" }}>
+                    We make your trading dreams come true.
+                  </p>
+                  <div className="">
                     <GetstartedButton />
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 ">
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 d-none d-lg-block d-md-block">
+                <img src={mobilephones.src} alt="" />
+              </div>
+              <div className="col-xs-12 col-sm-12 w-50 d-sm-block d-md-none mx-auto d-block">
                 <img src={mobilephones.src} alt="" />
               </div>
             </div>
