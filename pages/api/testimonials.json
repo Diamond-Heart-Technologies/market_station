@@ -12,14 +12,16 @@
       "Images": "./images/testimonial/testimonialimage.png",
       "Name": "Esther blessing",
       "Position": "CEO, Dara Wears",
-      "text": "Lorem ipsum dolor sit amet consectetur. Platea vel feugiat aenean arcu purus egestas. Pulvinar nunc sed sed vulputate tortor tristique condimentum augue at. Ullamcorper facilisis ut pellentesque nunc. Eget eget at quam sit proin enim tincidunt. "
+      "text": "Lorem ipsum dolor sit amet consectetur. Platea vel feugiat aenean arcu purus egestas. Pulvinar nunc sed sed vulputate tortor tristique condimentum augue at. Ullamcorper facilisis ut pellentesque nunc. Eget eget at quam sit proin enim tincidunt. ",
+      "rgba": "#AD634837"
     },
     {
       "Id": 3,
       "Images": "./images/testimonial/testimonialimage.png",
       "Name": "Esther blessing",
       "Position": "CEO, Dara Wears",
-      "text": "Lorem ipsum dolor sit amet consectetur. Platea vel feugiat aenean arcu purus egestas. Pulvinar nunc sed sed vulputate tortor tristique condimentum augue at. Ullamcorper facilisis ut pellentesque nunc. Eget eget at quam sit proin enim tincidunt. "
+      "text": "Lorem ipsum dolor sit amet consectetur. Platea vel feugiat aenean arcu purus egestas. Pulvinar nunc sed sed vulputate tortor tristique condimentum augue at. Ullamcorper facilisis ut pellentesque nunc. Eget eget at quam sit proin enim tincidunt. ",
+      "rgba": "#AD634837"
     },
     {
       "Id": 4,
