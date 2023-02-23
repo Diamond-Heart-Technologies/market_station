@@ -2,14 +2,15 @@
 // SubmitButton
 
 import styles from "../styles/componentstyles/buttondesign.module.scss";
+import Link from "next/link";
 
 export const GetstartedButton = () => {
   return (
-    <div style={{ textAlign: "center", marginTop: "15px" }}>
-      <button className={styles.Signin} type="button">
+    <Link href="#ContactUs">
+      <button className={`px-4 ${styles.Signin}`} type="button">
         GET STARTED
       </button>
-    </div>
+    </Link>
   );
 };
 

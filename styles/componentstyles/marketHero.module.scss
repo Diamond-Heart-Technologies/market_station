@@ -1,29 +1,42 @@
-.heroImage{
-    width: 100%;
-    height: 500px;
-    background-image: url(../../public/marketStationhero/marketstarionhero.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.heroimage {
+  width: 100%;
+  height: 630px;
+  background-image: url(../../public/images/marketStationhero/heroRectangle.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-
-.marketStationText{
-    position: relative;
-    font-size: 1rem;
-
+.marketStationText {
+  position: relative;
+  font-size: 1rem;
+  color: white;
 }
 
-
-.marketStationText a{
-    color: white !important;
-
+.marketStationText h1 {
+  color: white;
+  position: relative;
+  font-size: 3rem;
+  font-weight: 1000;
 }
-
-
-.marketStationText h1{
-    color: white;
-    position: relative;
-    font-size: 3rem;
-    font-weight: 1000;
+.marketStationNavText {
+  color: white;
+  font-weight: 600;
+}
+@media screen and (max-width: 766px) {
+  .marketStationNavText {
+    color: black;
+    font-weight: 600;
+  }
+  .herotexts {
+    margin-left: 35px;
+  }
+  .Herobutton {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .HeroimageMobile {
+    width: 70vh;
+  }
 }

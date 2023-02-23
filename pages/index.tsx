@@ -8,7 +8,7 @@ import { SingleServiceCards } from "../components/AllCards/ourServiceCards";
 import { SinglePricingCard } from "../components/AllCards/pricingCards";
 import { SingleTestimonialCard } from "../components/AllCards/testimonialCards";
 import { ContactUs } from "../components/contactUs";
-import Navbar from "../components/navbar";
+import Navbar1 from "../components/hero";
 import Footer from "@/components/footer";
 
 export default function Home() {
@@ -21,7 +21,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`container-fluid`}>
-        <Navbar />
+        <Navbar1 />
         <section
           className={` mx-auto ${homestyles.serviceSection}  ${homestyles.ServiceCardSM}`}
           id="OurServices"
@@ -30,7 +30,7 @@ export default function Home() {
           <SingleServiceCards />
         </section>
 
-        <section className={`id="Pricing   ${styles.pricingSectionBG}`}>
+        <section id="Pricing" className={`${styles.pricingSectionBG}`}>
           <h1 className={`text-center fw-bold ${homestyles.pricingSection} `}>
             Pricing
           </h1>
@@ -46,18 +46,14 @@ export default function Home() {
         </section>
         <section
           className={`px-4 container ${homestyles.testimonialSection}`}
-          id="AboutUs">
+          id="AboutUs"
+        >
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-center">
               <h1
-<<<<<<< HEAD
-                className="fw-bold  text-center 
+                className="fw-bold text-center w-100
               "
               >
-=======
-                className="fw-bold text-center w-100
-              ">
->>>>>>> af8a90c4f9fe2d56e92d38023daf9d322d513d58
                 What our Customers are Saying
               </h1>
             </div>
