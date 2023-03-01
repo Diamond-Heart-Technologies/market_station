@@ -5,6 +5,8 @@ import styles from "@/styles/generalstyles/colors.module.scss";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { SubmitButton } from "./buttons";
+import PropTypes from "prop-types";
+import { type } from "os";
 
 export const ContactUs = () => {
   return (
@@ -42,6 +44,7 @@ const ContactForm = () => {
         Message,
       };
       console.log(person);
+
       setPeople((people) => {
         return [...people, person];
       });

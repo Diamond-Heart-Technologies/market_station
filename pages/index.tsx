@@ -8,7 +8,7 @@ import { SingleServiceCards } from "../components/AllCards/ourServiceCards";
 import { SinglePricingCard } from "../components/AllCards/pricingCards";
 import { SingleTestimonialCard } from "../components/AllCards/testimonialCards";
 import { ContactUs } from "../components/contactUs";
-import Navbar1 from "../components/hero";
+import Hero from "../components/hero";
 import Footer from "@/components/footer";
 
 export default function Home() {
@@ -21,17 +21,44 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`container-fluid`}>
-        <Navbar1 />
+        <section className="">
+          <Hero />
+        </section>
+
+        <section className={`  ${homestyles.serviceSection}`} id="aboutUs">
+          <h1 className={`text-center fw-bold ${styles.textColorWB}`}>
+            Who We Are
+          </h1>
+          <p
+            className={` d-flex mx-auto ${styles.textColorWB} ${homestyles.aboutUsText}`}
+          >
+            Lorem ipsum dolor sit amet consectetur. Orci massa nunc imperdiet
+            ipsum. Nunc id tortor quam porttitor dictumst egestas euismod. Vitae
+            maecenas vel bibendum dui dolor viverra neque viverra. Quam
+            elementum nulla id vitae duis volutpat feugiat. Aliquet pulvinar
+            nisi sit turpis nulla sit. Magnis ante cursus nulla mattis ipsum
+            massa ultricies diam. Eleifend id volutpat tortor nibh fermentum
+            enim in. Viverra urna aliquet neque eros aliquam molestie suscipit
+            arcu ligula. Cras risus quis in ultricies donec vitae amet augue
+            tristique. Aliquam congue porttitor quis pellentesque. Nunc donec ut
+            a nulla sit aenean luctus. Nec est lobortis dolor et donec. Purus
+            sit{" "}
+          </p>
+        </section>
         <section
           className={` mx-auto ${homestyles.serviceSection}  ${homestyles.ServiceCardSM}`}
           id="OurServices"
         >
-          <h1 className="text-center fw-bold textColorWB">Our Services</h1>
+          <h1 className={`text-center fw-bold ${styles.textColorWB}`}>
+            Our Services
+          </h1>
           <SingleServiceCards />
         </section>
 
         <section id="Pricing" className={`${styles.pricingSectionBG}`}>
-          <h1 className={`text-center fw-bold ${homestyles.pricingSection} `}>
+          <h1
+            className={`text-center fw-bold ${styles.textColorWB}  ${homestyles.pricingSection}`}
+          >
             Pricing
           </h1>
 
@@ -50,13 +77,11 @@ export default function Home() {
         >
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-center">
-              <h1
-                className="fw-bold text-center w-100
-              "
-              >
+              <h1 className={`text-center fw-bold ${styles.textColorWB}`}>
                 What our Customers are Saying
               </h1>
             </div>
+
             <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 container-fluid">
               <SingleTestimonialCard />
             </div>

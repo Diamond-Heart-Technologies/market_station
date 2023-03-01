@@ -3,65 +3,11 @@ import { GetstartedButton } from "./buttons";
 import mobilephones from "../public/images/marketStationhero/mobilephones.png";
 import Navbarr from "./navbarr";
 
-const Navbar1 = () => {
+const Hero = () => {
   return (
     <>
       <main>
         <div className={Navstyles.heroimage}>
-          {/* <nav className="navbar navbar-expand-lg ">
-            <div className="container-fluid">
-              <div className=" ms-auto " style={{ background: "#fff" }}>
-                <button
-                  className="navbar-toggler "
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarNavDropdown"
-                  aria-controls="navbarNavDropdown"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation "
-                >
-                  <span className="navbar-toggler-icon "></span>
-                </button>
-              </div>
-              <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul className="navbar-nav  ms-auto mb-2 mb-lg-0">
-                  <div className={styles.marketStationText}>
-                    <li className="nav-item">
-                      <a
-                        className="nav-link active"
-                        aria-current="page"
-                        href="#AboutUs"
-                      >
-                        ABOUT US
-                      </a>
-                    </li>
-                  </div>
-                  <div className={styles.marketStationText}>
-                    <li className="nav-item ">
-                      <a className="nav-link" href="#OurServices">
-                        SERVICES
-                      </a>
-                    </li>
-                  </div>
-                  <div className={styles.marketStationText}>
-                    <li className="nav-item">
-                      <a className="nav-link" href="#Pricing">
-                        PRICING
-                      </a>
-                    </li>
-                  </div>
-                  <div className={styles.marketStationText}>
-                    <li className="nav-item">
-                      <a className="nav-link" href="#ContactUs">
-                        CONTACT US
-                      </a>
-                    </li>
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </nav> */}
-
           {/* Navbar starts here */}
           <Navbarr />
           {/* Navbar ends here */}
@@ -100,4 +46,4 @@ const Navbar1 = () => {
   );
 };
 
-export default Navbar1;
+export default Hero;
