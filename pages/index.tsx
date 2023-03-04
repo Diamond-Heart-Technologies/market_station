@@ -8,7 +8,7 @@ import { SinglePricingCard } from "../components/AllCards/pricingCards";
 import { SingleTestimonialCard } from "../components/AllCards/testimonialCards";
 import { ContactUs } from "../components/contactUs";
 import Footer from "@/components/footer";
-import Hero from "@/components/hero";
+// import Hero from "@/components/hero";
 
 export default function Home() {
   return (
@@ -20,9 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`container-fluid`}>
-        <section className="">
-          <Hero />
-        </section>
+        <section className="">{/* <Hero /> */}</section>
 
         <section className={`${homestyles.serviceSection}`} id="aboutUs">
           <h1 className={`text-center fw-bold ${styles.textColorWB}`}>
