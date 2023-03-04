@@ -9,6 +9,7 @@ import { SingleTestimonialCard } from "../components/AllCards/testimonialCards";
 import { ContactUs } from "../components/contactUs";
 import Footer from "@/components/footer";
 // import Hero from "@/components/hero";
+import HeroSection from "../components/herosection";
 
 export default function Home() {
   return (
@@ -20,7 +21,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`container-fluid`}>
-        <section className="">{/* <Hero /> */}</section>
+        <section className="">
+          <HeroSection />
+        </section>
 
         <section className={`${homestyles.serviceSection}`} id="aboutUs">
           <h1 className={`text-center fw-bold ${styles.textColorWB}`}>

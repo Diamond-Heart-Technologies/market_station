@@ -3,7 +3,7 @@ import { GetstartedButton } from "./buttons";
 import mobilephones from "../public/images/marketStationhero/mobilephones.png";
 import Navbarr from "./navbarr";
 
-const Hero = () => {
+const HeroSection = () => {
   return (
     <>
       <main>
@@ -24,12 +24,12 @@ const Hero = () => {
                   <p className="text-white">
                     We make your trading dreams come true.
                   </p>
-                  <div className={` mt-4 ${Navstyles.Herobutton}`}>
+                  <div className={`mt-4 ${Navstyles.Herobutton}`}>
                     <GetstartedButton />
                   </div>
                 </div>
               </div>
-              <div className=" col-lg-6 col-md-6  col-sm-12">
+              <div className="col-lg-6 col-md-6  col-sm-12">
                 <img
                   className={` ${Navstyles.HeroimageMobile}`}
                   src={mobilephones.src}
@@ -46,4 +46,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroSection;
