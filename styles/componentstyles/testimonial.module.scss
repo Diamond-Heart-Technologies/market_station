@@ -1,0 +1,27 @@
+@use "../generalstyles/colors.module.scss" as *;
+
+.testimonialName {
+  font-size: 0.95rem;
+  font-weight: 480;
+}
+
+.testimonialPosition {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+@media screen and (max-width: 766px) {
+  .TestimonialCardSM {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 766px) {
+  .TcardImage {
+    min-width: 2.4rem !important;
+    height: 2.5rem !important;
+    margin: -10px;
+  }
+  .imgspacing {
+    margin-top: 15px;
+  }
+}
