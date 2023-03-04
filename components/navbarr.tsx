@@ -27,7 +27,7 @@ function Navbarr() {
                 ></Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="ms-auto ">
+                <Nav className="ms-auto mt-4">
                   <div className=" ">
                     <Nav.Link className="me-5" href="#AboutUs">
                       <li className={`${Navstyles.marketStationNavText}`}>
