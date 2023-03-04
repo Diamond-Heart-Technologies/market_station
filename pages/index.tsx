@@ -3,13 +3,12 @@ import Head from "next/head";
 import { Inter } from "@next/font/google";
 import homestyles from "@/styles/pages/home.module.scss";
 import styles from "@/styles/generalstyles/colors.module.scss";
-
 import { SingleServiceCards } from "../components/AllCards/ourServiceCards";
 import { SinglePricingCard } from "../components/AllCards/pricingCards";
 import { SingleTestimonialCard } from "../components/AllCards/testimonialCards";
 import { ContactUs } from "../components/contactUs";
-import Hero from "../components/hero";
 import Footer from "@/components/footer";
+import Hero from "@/components/hero";
 
 export default function Home() {
   return (
@@ -25,12 +24,12 @@ export default function Home() {
           <Hero />
         </section>
 
-        <section className={`  ${homestyles.serviceSection}`} id="aboutUs">
+        <section className={`${homestyles.serviceSection}`} id="aboutUs">
           <h1 className={`text-center fw-bold ${styles.textColorWB}`}>
             Who We Are
           </h1>
           <p
-            className={` d-flex mx-auto ${styles.textColorWB} ${homestyles.aboutUsText}`}
+            className={`d-flex mx-auto ${styles.textColorWB} ${homestyles.aboutUsText}`}
           >
             Lorem ipsum dolor sit amet consectetur. Orci massa nunc imperdiet
             ipsum. Nunc id tortor quam porttitor dictumst egestas euismod. Vitae
@@ -41,8 +40,7 @@ export default function Home() {
             enim in. Viverra urna aliquet neque eros aliquam molestie suscipit
             arcu ligula. Cras risus quis in ultricies donec vitae amet augue
             tristique. Aliquam congue porttitor quis pellentesque. Nunc donec ut
-            a nulla sit aenean luctus. Nec est lobortis dolor et donec. Purus
-            sit{" "}
+            a nulla sit aenean luctus. Nec est lobortis dolor et donec. sit{" "}
           </p>
         </section>
         <section
