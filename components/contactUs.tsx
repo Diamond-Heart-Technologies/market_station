@@ -15,10 +15,10 @@ export const ContactUs = () => {
         className={`container mx-auto ${styles.pryColor}  ${contactStyle.contactSection}`}
       >
         <div className="row">
-          <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center align-self-center">
-            <h3 className={` ${styles.secColor}`}>Get in touch</h3>
+          <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center align-self-center py-2">
+            <h3 className={`fs-1 ${styles.secColor}`}>Get in touch</h3>
           </div>
-          <div className="col-lg-7 col-md-7 col-sm-12">
+          <div className="col-lg-7 col-md-7 col-sm-12 mb-2">
             <ContactForm />
           </div>
         </div>

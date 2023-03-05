@@ -25,7 +25,7 @@ export const TestimonialCard = (props: props) => {
         style={{
           backgroundColor: `${Color}`,
         }}
-        className={`px-4 py-4 mx-auto container ${styles.ServiceCardBG} ${Tstyles.TestimonialCardSM}`}
+        className={`px-4 py-4 mx-auto container ${styles.ServiceCardBG}`}
       >
         <div className="row">
           <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12">

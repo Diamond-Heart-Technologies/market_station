@@ -21,9 +21,9 @@ const Footer = () => {
 
         <ul
           className="
-         mx-auto fs-6 mb-3 d-lg-flex d-md-flex pe-md-4"
+         mx-auto mb-3 d-flex pe-md-4"
         >
-          <li className="me-md-4">
+          <li className="me-md-4 me-sm-3 me-3">
             <Link
               className={`nav-link  ${styles.secColor}`}
               aria-current="page"
@@ -32,7 +32,7 @@ const Footer = () => {
               Home
             </Link>
           </li>
-          <li className="me-md-4">
+          <li className="me-md-4 me-sm-3 me-3">
             <Link
               className={`nav-link ${styles.secColor}`}
               aria-current="page"
@@ -41,7 +41,7 @@ const Footer = () => {
               About Us
             </Link>
           </li>
-          <li className="me-md-4">
+          <li className="me-md-4 me-sm-3 me-3">
             <Link
               className={`nav-link ${styles.secColor}`}
               aria-current="page"

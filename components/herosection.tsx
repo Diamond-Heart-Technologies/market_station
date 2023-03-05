@@ -17,12 +17,11 @@ const HeroSection = () => {
           <div className="container-fluid">
             <div className="row mt-4">
               <div className="col-lg-6 col-md-6 col-sm-12 mt-lg-5 mt-md-5 pt-lg-5 pt-md-5 ">
-                <div className={` ${Navstyles.herotexts}`}>
-                  <h2 className="fw-bold text-white ">
-                    Lorem ipsum, dolor sit amet consectetur.
-                  </h2>
-                  <p className="text-white">
-                    We make your trading dreams come true.
+                <div className={`text-center`}>
+                  <h1 className="fw-bold fs-1 text-white ">MARKET STATION</h1>
+                  <p className="text-white fs-5 w-75 mx-auto">
+                    Your one stop station for anything regarding forex
+                    consultancy
                   </p>
                   <div className={`mt-4 ${Navstyles.Herobutton}`}>
                     <GetstartedButton />
