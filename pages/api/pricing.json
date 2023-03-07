@@ -14,7 +14,9 @@
       "list6": "Risk Managenment",
       "list7": "Risk Managenment",
       "list8": "Risk Managenment",
-      "list9": "Risk Managenment"
+      "list9": "Risk Managenment",
+      "bottom": "",
+      "paddingTop": ""
     },
     {
       "Id": 2,
@@ -30,7 +32,9 @@
       "list6": "Risk Managenment",
       "list7": "Risk Managenment",
       "list8": "Risk Managenment",
-      "list9": "Risk Managenment"
+      "list9": "Risk Managenment",
+      "bottom": "28px",
+      "paddingTop": "30px "
     },
     {
       "Id": 3,
@@ -46,7 +50,9 @@
       "list6": "Risk Managenment",
       "list7": "Risk Managenment",
       "list8": "Risk Managenment",
-      "list9": "Risk Managenment"
+      "list9": "Risk Managenment",
+      "bottom": "",
+      "paddingTop": ""
     }
   ]
 }
