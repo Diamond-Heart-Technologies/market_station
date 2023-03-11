@@ -18,7 +18,7 @@ export const ContactUs = () => {
           <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center align-self-center py-2">
             <h3 className={`fs-1 ${styles.secColor}`}>Get in touch</h3>
           </div>
-          <div className="col-lg-7 col-md-7 col-sm-12 mb-2">
+          <div className="col-lg-7 col-md-7 col-sm-12 mb-2 ">
             <ContactForm />
           </div>
         </div>
@@ -45,17 +45,12 @@ const ContactForm = () => {
       };
       console.log(person);
 
-      // const newPeople = (people) => {
-      //   return [...people, person];
-      // };
-
-      // setPeople(newPeople);
       setName("");
       setEmail("");
       setPricingOption("");
       setMessage("");
     } else {
-      console.log("empty values");
+      window.alert("empty values");
     }
   };
   return (
@@ -65,7 +60,7 @@ const ContactForm = () => {
       <div className="col-lg-7 col-md-7 col-sm-12 mx-auto">
         <form
           onSubmit={handleSubmit}
-          className={`bg-white p-3 ${contactStyle.formstyle}`}
+          className={`bg-white p-3  w-100 ${contactStyle.formstyle}`}
         >
           <div className={`mb-3`}>
             <p className={``}>Name:</p>
@@ -118,7 +113,9 @@ const ContactForm = () => {
           </div>
 
           <div className="d-flex justify-content-center">
-            {/* <Button type="submit">submit</Button> */}
+            {/* <button type="submit" className="btn border-0">
+              <SubmitButton />
+            </button> */}
             <SubmitButton />
           </div>
         </form>
