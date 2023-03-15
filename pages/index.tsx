@@ -20,11 +20,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <section className="">
         <HeroSection />
       </section>
       <main className={`container-fluid ${homestyles.homeSection}`}>
-        <section className={`${homestyles.serviceSection}`} id="aboutUs">
+        <section className={`${homestyles.serviceSection}`} id="AboutUs">
           <h1 className={`text-center fw-bold ${styles.textColorWB}`}>
             Who We Are
           </h1>
@@ -71,7 +72,7 @@ export default function Home() {
         </section>
         <section
           className={`px-4 container ${homestyles.testimonialSection}`}
-          id="AboutUs"
+          id="scrollspyAboutUs"
         >
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-center">

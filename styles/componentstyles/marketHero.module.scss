@@ -23,10 +23,21 @@
   color: white;
   font-weight: 600;
 }
-@media screen and (max-width: 766px) {
+.marketStationNavText:hover {
+  color: rgb(177, 174, 174);
+}
+@media screen and (max-width: 767px) {
   .marketStationNavText {
     color: black;
     font-weight: 600;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 13px;
+    align-items: center;
+    padding-left: 30px;
+  }
+  .marketStationNavText:hover {
+    color: blue;
   }
   .herotexts {
     margin-left: 35px;
@@ -35,7 +46,7 @@
     margin-bottom: 20px;
   }
 }
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 767px) {
   .HeroimageMobile {
     width: 70vh;
   }
@@ -44,4 +55,18 @@
   .HeroimageMobile {
     width: 93vh;
   }
+}
+
+@media (max-width: 767px) {
+  .CollapseContent {
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+  }
+  .HeroContent {
+    position: relative;
+  }
+}
+.HeroContent {
+  padding-top: 60px;
 }

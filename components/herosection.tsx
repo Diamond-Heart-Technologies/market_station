@@ -1,21 +1,21 @@
 import Navstyles from "../styles/componentstyles/marketHero.module.scss";
 import { GetstartedButton } from "./buttons";
 import mobilephones from "../public/images/marketStationhero/mobilephones.png";
-import Navbarr from "./navbarr";
+import { Navbarr } from "./navbarr";
 
 const HeroSection = () => {
   return (
     <>
       <main>
-        <div className={Navstyles.heroimage}>
+        <div className={` ${Navstyles.heroimage}`}>
           {/* Navbar starts here */}
           <Navbarr />
           {/* Navbar ends here */}
 
           {/* hero content start here */}
 
-          <div className="container-fluid">
-            <div className="row mt-4">
+          <div className={`container-fluid ${Navstyles.HeroContent}`}>
+            <div className="row mt-">
               <div className="col-lg-6 col-md-6 col-sm-12 mt-lg-5 mt-md-5 pt-lg-5 pt-md-5 ">
                 <div className={`text-center`}>
                   <h1 className="fw-bold fs-1 text-white ">MARKET STATION</h1>
