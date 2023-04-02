@@ -17,7 +17,7 @@ export const GetstartedButton = () => {
 export const SubmitButton = () => {
   return (
     <div>
-      <button className={`  ${styles.Submit}`} type="button">
+      <button className={`${styles.Submit}`} type="button">
         Submit
       </button>
     </div>

@@ -47,11 +47,11 @@ export const PricingCard = (props: Ipricing) => {
 
   return (
     <Card
+      className={`mx-auto mb-5 ${pricingstyles.pricingCardSM}`}
       style={{
         bottom: `${bottom}`,
         paddingTop: `${paddingTop}`,
       }}
-      className={`mx-auto mb-5 ${pricingstyles.pricingCardSM}`}
     >
       <Card.Body>
         <Card.Title className={`text-center fw-bold ${styles.textColorWB}`}>
@@ -165,13 +165,13 @@ export const PricingCard = (props: Ipricing) => {
 
 export const SinglePricingCard = () => {
   return (
-    <div className="container-fluid  ">
+    <div className="container-fluid">
       <div className="row d-flex justify-content-center">
         {PricingInfo.pricing.map((items) => {
           return (
             <>
               <div
-                className="col-lg-3 col-md-3 col-sm-12 text-wrap mx-4 my-2"
+                className="col-lg-3 col-md-3 col-sm-12 text-wrap mx-0"
                 key={items.Id}
               >
                 <PricingCard {...items} />

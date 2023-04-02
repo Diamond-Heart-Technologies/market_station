@@ -1,9 +1,9 @@
 @use "../generalstyles/colors.module.scss" as *;
 .contactSection {
-  max-width: 80%;
+  max-width: 90%;
 }
 .formstyle {
-  width: 100%;
+  max-width: 60%;
   border-radius: 10px;
   margin-bottom: 50px;
   margin-top: 50px;
@@ -19,8 +19,14 @@
 
 @media screen and (max-width: 766px) {
   .formstyle {
-    width: 80%;
+    max-width: 90%;
     margin: auto;
-    margin-bottom: 50px;
+    padding: 0 25px 0 25px;
+    // margin-top: 70px;
+    // margin-bottom: 70px;
+  }
+
+  .contactSection {
+    padding: 25px 0 25px 0;
   }
 }

@@ -21,11 +21,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      {/* Hero and Navbar */}
       <section className="">
         <HeroSection />
       </section>
+
+      {/*  */}
       <main className={`container-fluid ${homestyles.homeSection}`}>
-        <section className={`${homestyles.serviceSection}`} id="AboutUs">
+        <section
+          className={`${homestyles.serviceSection}`}
+          id="scrollspyAboutUsSec"
+        >
           <h1 className={`text-center fw-bold ${styles.textColorWB}`}>
             Who We Are
           </h1>
@@ -45,7 +51,7 @@ export default function Home() {
           </p>
         </section>
         <section
-          className={` mx-auto ${homestyles.serviceSection}  ${homestyles.ServiceCardSM}`}
+          className={` mx-auto   ${homestyles.serviceSection}  ${homestyles.ServiceCardSM}`}
           id="OurServices"
         >
           <h1 className={`text-center fw-bold ${styles.textColorWB}`}>
@@ -70,9 +76,10 @@ export default function Home() {
 
           <SinglePricingCard />
         </section>
+
         <section
           className={`px-4 container ${homestyles.testimonialSection}`}
-          id="scrollspyAboutUs"
+          id="scrollspyAboutUsSec"
         >
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-center">
@@ -80,12 +87,12 @@ export default function Home() {
                 What our Customers are Saying
               </h1>
             </div>
-
             <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 container-fluid">
               <SingleTestimonialCard />
             </div>
           </div>
         </section>
+
         <section className={`${homestyles.contactUsSection}`} id="ContactUs">
           <ContactUs />
         </section>
